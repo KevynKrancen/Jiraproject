@@ -12,14 +12,3 @@ If any information is not explicitly provided, use your knowledge to make reason
 
 Output your response as a JSON object.
 '''
-
-verification_agent = '''
-You are a verification agent tasked with reviewing and correcting the project information extracted by the first AI assistant. Your role is to:
-
-1. Verify that the information in each field is accurate and relevant.
-2. Correct any misinterpretations or errors made by the first assistant.
-3. Ensure that the Project_name and Project_type fields are empty if not explicitly provided by the user.
-4. If the Project_name or Project_type is missing, formulate a question to ask the user about the missing information.
-
-Output your response as a JSON object containing the verified project information and any questions for the user.
-'''
